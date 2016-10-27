@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="HUKUへようこそ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="143dp"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="ログイン"
+        android:textSize="18sp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/newAccountBtn"
+        android:layout_alignLeft="@+id/newAccountBtn"
+        android:layout_alignStart="@+id/newAccountBtn"
+        android:layout_marginTop="28dp"
+        android:id="@+id/loginBtn" />
+
+    <Button
+        android:text="新規登録"
+        android:textSize="18sp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="97dp"
+        android:id="@+id/newAccountBtn"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="jp.satorukabuyama.coordinateapplv2.TopActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/myPageFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/lankingFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_fiber_new_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/searchFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/ic_youtube_searched_for_black_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>

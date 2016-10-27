@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoordinateAppLv2</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="list">
+    <item>男性</item>
+    <item>女性</item>
+    </string-array>
+
+</resources>
